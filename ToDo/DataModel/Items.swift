@@ -6,7 +6,7 @@
 //  Copyright © 2019 Usman. All rights reserved.
 //
 
-class Items {
+class Items:Codable  {
     var title: String = ""
     var done: Bool = false
 }
